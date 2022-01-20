@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: inline-flex;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.logo {
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.header-left {
+    padding: 20px;
+    background-color: #f3f3f3;
+    max-width: 20%;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.logo-img {
+    margin-right: 25px;
+    align-items: center;
+}
+
+.add-contact {
+    display: block;
+    margin-top: 365px;
+    margin-bottom: 30px;
+    padding: 15px;
+    align-items: center;
+    border-radius:10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+}
+
+.add-contact:hover {
+    background-color: rgb(12, 12, 12);
+}
+
+.se-p {
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #3b3b3b;
+    margin-top: 155px;
+}
+
+
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding:20px ;
+}
+
+.name-group {
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.fi-rr-menu-dots-vertical {
+    align-items: center;
+}
+
+.escrever-mensagem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 30px;
+}
+
+.escrever-mensagem input {
+    display: block;
+    padding: 15px;
+    margin-left: 85;
+    background-color: rgb(199, 199, 199);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-right: 555px;
+}
+
+.escrever-mensagem input:hover {
+    background-color: rgb(170, 170, 170);
+}
+.escrever-mensagem input:active {
+    background-color: rgb(170, 170, 170);
+}
+
+.escrever-mensagem a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    align-items: center;
+    border-radius: 15px;
+    background-color: black;
+    margin-left: 255px;
+    font-size: 20px;
+}
+
+.div-message {
+    display: block;
+    background-color: #f3f3f3;
+    padding: 15px;
+    border-radius: 10px;
+    position: fixed;
+    top: 125px;
+    font-family: sans-serif;
+}
+
+.div-message p {
+    margin-top: 5px;
+}
+
+.div-message-eu {
+    display: block;
+    background-color: #f3f3f3;
+    padding: 15px;
+    border-radius: 10px;
+    position: fixed;
+    top: 215px;
+    right: 35px;
+    font-family: sans-serif;
+}
+
+.div-message-eu p {
+    margin-top: 5px;
+}
+
+.div-message1 {
+    display: block;
+    background-color: #f3f3f3;
+    padding: 15px;
+    border-radius: 10px;
+    position: fixed;
+    top: 285px;
+    font-family: sans-serif;
+}
+
+.div-message1 p {
+    margin-top: 5px;
+}
